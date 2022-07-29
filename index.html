@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oper</title>
+    <link rel="icon" type="image/x-icon" href="/src/img/globalnav_apple_image__b5er5ngrzxqq_large.svg">
     <!-- font-awesome link  -->
     <script src="https://kit.fontawesome.com/e73bfca1fd.js" crossorigin="anonymous"></script>
     <!-- css file -->
@@ -18,9 +19,20 @@
     <!-- google font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;600;700&display=swap"
         rel="stylesheet">
+
+
+    <!-- swiper css  -->
+    <!-- swiper css  -->
+    <!-- swiper css  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+
 
 
 
@@ -29,56 +41,194 @@
 <body>
     <!-- Header section start  -->
 
-    <header class="bg-white header-nav  sticky-top">
+    <header class="header-section">
+        <div class="header-wrap">
+            <nav class=" header-nav px-4">
+                <div class="toggle-btn " id="toggle-open">
 
-        <nav class="navbar  navbar-light d-flex align-items-center header-nav  container" id="header-dev">
-            <div class="container-fluid">
-                <div class="fotter-logo navbar-brand ">
-                    <a href="index.html">
-                        <img src="/src/img/logo.png" alt="" />
+                    <label>
+                        <i class="fa fa-bars" id="toggle-open"></i>
+                    </label>
+                </div>
+                <div class="header-logo header-logo1 ms-auto">
+                    <a class="" href="index.html">
+                        <img src="/src/img/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt="">
                     </a>
                 </div>
+                <div class="ms-auto mobile-bag-logo">
+                    <span class="iconify  fs-6 text-white" data-icon="bi:bag"></span>
+                </div>
+
+                <ul class=" menu-list">
+                    <li class="menu-item">
+                        <div class="header-logo">
+                            <a class="" href="index.html">
+                                <img src="/src/img/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link active" aria-current="page" href="#">Store</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Mac</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">iPad</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">iPhone</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Watch</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">AirPods</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">TV & Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Only on Apple</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">iPhone</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Accessories</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">Support</a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link " href="#">
+                            <i class="fa fa-search pt-3 "></i>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a class="menu-link" href="#">
+                            <span class="iconify mt-3 fs-6" data-icon="bi:bag"></span>
+                        </a>
+                    </li>
 
 
+                </ul>
 
-                <div>
-                    <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+
+                <div class="mobile-menu">
+
+                    <ul class="mobile-menu-list " id="mobile-list">
+                        <li class="mobile-menu-item mt-3  border-0">
+                            <span id="toggle-close" class="iconify text-white fs-1" data-icon="fa6-solid:xmark"></span>
+                            <img src="/src/img/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt=""
+                                class="mobile-logo  ms-4">
+
+                            <span class="iconify mt-3 fs-6 " style="color:transparent" data-icon="bi:bag"></span>
+
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <div class=" search-bar">
+                                <button class="mobile-search-icon  ms-4 border-0" type="button" id="button-addon1"> <i
+                                        class="fa fa-search mb-3 me-2"></i></button>
+                                <input type="text" class="" placeholder="Search apple.xom">
+                            </div>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">Store</a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">Mac</a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">iPad </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">iPhone </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">Watch </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">AirPods </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">TV & Home </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">Only on apple </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#">Accessories </a>
+
+                        </li>
+                        <li class="mobile-menu-item">
+                            <a class="mobile-menu-link" href="#" style="border-bottom:none">Support </a>
+
+                        </li>
 
                     </ul>
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item mt-3">
-                            <a class=" header-link login-button"
-                                href="https://oj2654v5gi2.typeform.com/to/PKgSq0Yb">Login</a>
-                        </li>
-                        <li class="nav-item mt-3">
-                            <a class=" header-link signUp-button"
-                                href="https://oj2654v5gi2.typeform.com/to/PKgSq0Yb">Sign Up</a>
-                        </li>
-
-                    </ul>
-
 
                 </div>
-            </div>
-        </nav>
+
+
+
+
+
+
+
+            </nav>
+
+
+        </div>
+
 
     </header>
+
     <!-- Header section end -->
 
     <!-- Main section start  -->
     <main>
 
+        <section class="homepage-section collection-module" data-module-template="ribbon">
+            <div data-unit-id="unicef-relief-fund" data-analytics-activitymap-region-id="ribbon-unicef-relief-fund">
+                <div class="section-content">
+                    <figure class="logo-image unicef-logo" aria-label="Unicef" role="text"></figure>
+                    <a class="donate-to-support" href="#">Donate to
+                        support families affected by the war in Ukraine</a>
+                </div>
+            </div>
+        </section>
 
-        <section class="heru-section">
-            <div class="heru-section-overlay">
-                <div class="container">
-                    <div class="heru-section-info">
-                        <h1>Buy and sell businesses with ease. <br>
-                            Simple. Free. Secure.
-                        </h1>
-                        <button><a href="https://oj2654v5gi2.typeform.com/to/PKgSq0Yb">Try now <i
-                                    class="fa fa-arrow-right"></i></a>
-                        </button>
+
+
+        <section class="macbook-air-section">
+            <div class="macbook-air-section-wrapper">
+                <div class="macbook-air-content">
+                    <div class="macbook-info text-center">
+
+                        <h1 class="macbook-title">MacBook Air</h1>
+                        <img src="/src/img/Superchaged-apple-logo-1.png" alt="" class="macbook-title-img">
+                        <div class="macbook-cta-link mt-3">
+                            <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                            <a href="#">Buy <i class="fa fa-angle-right "></i></a>
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="macbook-img">
+                        <img src="/src/img/hero-secion.png" class="img-fluid" alt="">
 
                     </div>
                 </div>
@@ -86,513 +236,672 @@
         </section>
 
 
-        <!-- popular section-->
-        <!-- popular section-->
-        <!-- popular section-->
-        <!-- popular section-->
+
+        <!--======================================= 
+                        hero section
+        ===========================  -->
 
 
 
-        <section class="popular-section">
-            <div class="container">
-                <div class="popular-section-overlay">
-                    <div class="popular-box">
-                        <div class="popular-head">
-                            <h2>Popular Listings</h2>
-                            <button><a href="https://oj2654v5gi2.typeform.com/to/PKgSq0Yb"> See all <i
-                                        class="fa fa-arrow-right"></i></a></button>
+
+        <!--======================================= 
+                        iPhone 13 section start
+        ===========================  -->
+
+
+
+        <section class="iphone-thirty-section">
+            <div class="iphone-thirty-wrapper">
+                <div class="iphone-thirty-content">
+                    <div class="iphone-thirty-info">
+                        <h1 class="section-title">iPhone 13</h1>
+                        <p>Your new superpower</p>
+                        <div class="macbook-cta-link mt-3 text-center">
+                            <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                            <a href="#">Buy <i class="fa fa-angle-right "></i></a>
                         </div>
-                        <div class="popular-body">
-                            <div class="row ">
-                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    </div>
+                    <div class="iphone-thirty-img ">
+                        <img src="/src/img/iphone-thirty.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                                    <div class="col">
-                                        <div class="card popular-card">
-                                            <img src="/src/img/popular-1.jfif" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <div class="card-body-head">
-                                                    <div class="card-body-head-info">
-                                                        <i class="fa fa-map-marker"></i>
-                                                        <p>South Jakarta</p>
-                                                    </div>
-                                                    <div class="card-body-head-info">
-                                                        <i class="fa fa-building"></i>
-                                                        <p>Food & Drink</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card-body-main">
-                                                    <h4>Padang Restaurant</h4>
-                                                    <p>From IDR 1.000.000.000,-</p>
+
+        <!--======================================= 
+                        iPhone 13 section end
+        ===========================  -->
+
+
+
+
+        <!--======================================= 
+                        Get supercharged for college start
+        ===========================  -->
+
+
+
+        <section class="iphone-thirty-section supercharger-section">
+            <div class="iphone-thirty-wrapper">
+                <div class="iphone-thirty-content">
+                    <div class="iphone-thirty-info">
+                        <h1 class="section-title">Get <span style="color:#ca2166">supercharged</span> for college.</h1>
+                        <p>Save on Mac or iPad. Plus get a gift card up to $150.</p>
+                        <div class="macbook-cta-link mt-3 text-center">
+                            <a href="#">Shop now <i class="fa fa-angle-right "></i></a>
+                        </div>
+                    </div>
+                    <div class="iphone-thirty-img ">
+                        <img src="/src/img/SuperChareged.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--======================================= 
+                          Get supercharged for college end
+        ===========================  -->
+
+
+
+
+
+
+
+        <!--======================================= 
+                          iPhone 13 pro and MacBook Pro 13" section
+        ===========================  -->
+
+
+        <section class="iphone-macbook-section">
+                <div class="iphone-macbook-section-content container-fluid ">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                              <div class="iphone-pro-div ">
+                                  <div class="iphone-pro-content">
+                                      <div class="iphone-thirty-info">
+                                          <h1 class="section-title">iPhone 13 Pro</h1>
+                                          <p>Oh.So.Pro.</p>
+                                          <div class="macbook-cta-link mt-3 text-center">
+                                              <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                                              <a href="#">Buy <i class="fa fa-angle-right "></i></a>
+                                          </div>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="macbook-pro-div ">
+                                        <div class="macbook-pro-content">
+                                            <div class="iphone-thirty-info">
+                                                <h1 class="section-title text-white text-center">iPhone 13</h1>
+                                                <img src="/src/img/Superchaged-apple-logo-2.png" alt=""
+                                                    class=" macbook-pro-title-img">
+                                                <div class="macbook-cta-link mt-3 text-center">
+                                                    <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                                                    <a href="#">Buy <i class="fa fa-angle-right "></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="card  popular-card">
-                                            <img src="/src/img/popular-2.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <div class="card-body-head">
-                                                    <div class="card-body-head-info">
-                                                        <i class="fa fa-map-marker"></i>
-                                                        <p>Tangerang</p>
-                                                    </div>
-                                                    <div class="card-body-head-info">
-                                                        <i class="fa fa-building"></i>
-                                                        <p>Retail</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card-body-main">
-                                                    <h4>Woman Clothing Store</h4>
-                                                    <p>From IDR 4.000.000.000,-</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card  popular-card">
-                                            <img src="/src/img/popular-3.png" class="card-img-top" alt="...">
-                                            <div class="card-body">
-                                                <div class="card-body-head">
-                                                    <div class="card-body-head-info">
-                                                        <i class="fa fa-map-marker"></i>
-                                                        <p>Bogor</p>
-                                                    </div>
-                                                    <div class="card-body-head-info">
-                                                        <i class="fa fa-building"></i>
-                                                        <p>Food & Drink</p>
-                                                    </div>
-                                                </div>
-                                                <div class="card-body-main">
-                                                    <h4>Artisan Bakery</h4>
-                                                    <p>From IDR 2.000.000.000,-</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+                                </div>
+
+                        </div>
+
+                      
+                      
+                        
+                    </div>
                 </div>
         </section>
-        <section class="experience-section">
-            <div class="container">
-                <div class="experience-section-overlay">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12 ">
-                            <div class="experience-collum-one">
-                                <h1 class="experience-title">Experience smooth transaction.</h1>
-                                <p class="experience-desc">Join a community of entrepreneurs, business owners and
-                                    investors on
-                                    Indonesia's #1
-                                    business-for-sale
-                                    marketplace. Connect with hundreds of buyers and list your business for free. </p>
-                            </div>
+        <!--======================================= 
+                          iPhone 13 pro and MacBook Pro 13" section
+        ===========================  -->
 
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="experience-list-box">
-                                <div class="experience-icon">
-                                    <i class="fa fa-file-text-o"></i>
-                                </div>
-                                <div class="experience-list-info">
-                                    <h3>Free business listing</h3>
-                                    <p>Register your business for sale and get your business in front of potential
-                                        buyers right away.</p>
-                                </div>
 
-                            </div>
-                            <div class="experience-list-box">
-                                <div class="experience-icon">
-                                    <i class="fa fa-table"></i>
-                                </div>
-                                <div class="experience-list-info">
-                                    <h3>All you need in one platform</h3>
-                                    <p>From exchanging information to closing transactions, all in one platform..</p>
-                                </div>
+        <!--======================================= 
+                          watch-ipad-section section
+        ===========================  -->
 
-                            </div>
-                            <div class="experience-list-box">
-                                <div class="experience-icon">
-                                    <i class="fa fa-check"></i>
-                                </div>
-                                <div class="experience-list-info">
-                                    <h3>Safe and secure</h3>
-                                    <p>Our dedicated team will assist you during the business transaction to ensure a
-                                        smooth-sailing deal
-                                        from start to finish. </p>
-                                </div>
 
-                            </div>
-                        </div>
-                    </div>
+        <section class="watch-ipad-section">
+                <div class="iphone-macbook-section-content container-fluid">
+                  <div class="row">
+                     <div class="col-12 col-md-6">
+                         <div class="apple-watch-div">
+                             <div class="iphone-pro-content">
+                                 <div class="iphone-thirty-info">
+                                     <img src="/src/img/wacht-seris-7-logo.png" alt=""
+                                         style="width: 150px; margin:auto; display: flex ;margin-bottom: 10px;">
+                                     <p>It's our largest display yet.</p>
+                                     <div class="macbook-cta-link mt-3 text-center">
+                                         <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                                         <a href="#">Buy <i class="fa fa-angle-right "></i></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-12 col-md-6">
+                         <div class="ipad-air-div">
+                             <div class="macbook-pro-content">
+                                 <div class="iphone-thirty-info">
+                                     <img src="/src/img/pad-air-logo.png" alt=""
+                                         style="width: 150px; margin:auto; display: flex ;margin-bottom: 10px;">
+                                     <p class="text-white"> Light. Bright. Full of might.</p>
+                                     <div class="macbook-cta-link mt-3 text-center">
+                                         <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                                         <a href="#">Buy <i class="fa fa-angle-right "></i></a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     
+                  </div>
                 </div>
-            </div>
         </section>
+        <!--======================================= 
+                         watch-ipad-section section
+        ===========================  -->
 
 
-        <!-- three simple step  -->
-        <!-- three simple step  -->
-        <!-- three simple step  -->
-        <!-- three simple step  -->
 
-        <section class="three-simple-section">
-            <div class="three-simple-overlay">
-                <div class="tap-container">
-                    <div class="three-simple-header">
-                        <h1>Takeover in 3 simple steps</h1>
-                        <p>Oper offers a handful of features that helps you with a seamless <br> acquisition process
-                            from start to
-                            finish.</p>
-                    </div>
 
-                    <div class="three-simple-main">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-6 col-sm-12">
-                                <div class="row three-simple-info">
-                                    <div class="col-3 three-simple-step">
-                                        <div class="step">
-                                            <h1>1</h1>
 
-                                        </div>
-                                        <div class="vertical-underline">
-                                            .
-                                        </div>
 
-                                    </div>
-                                    <div class="col-8 three-simple-desc">
-                                        <h2>Find or create a business listing</h2>
-                                        <p>
-                                            Register the business you wish to sell by uploading information securely.
-                                            <br>
-                                            <br>
 
-                                            Buyers can filter and find attractive business listings based on the
-                                            industry of preferences.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6 col-sm-12">
-                                <div class="three-simple-img-box">
-                                    <div class="three-simple-img-before">
-                                        <img src="/src/img/wurang aji.png" alt="">
-                                    </div>
-                                    <div class="three-simple-img-head">
+        <!--======================================= 
+                          watch-ipad-section section
+        ===========================  -->
 
-                                        <img src="/src/img/create-new-lisening.png" alt="">
 
-                                    </div>
-                                    <div class="three-simple-img-after">
-                                        <img src="/src/img/Business-category.png" alt="">
+       <section class=" card-music-section">
+                <div class="iphone-macbook-section-content container-fluid">
+                  <div class="row">
+                      <div class="col-12 col-md-6">
+                        <div class="apple-card-div">
+                            <div class="iphone-pro-content">
+                                <div class="iphone-thirty-info">
+                                    <img src="/src/img/Card-apple-logo.png" alt=""
+                                        style="width: 150px; margin:auto; display: flex ;margin-bottom: 10px;">
+                                    <p>Get upto 3% Daily Cash back <br> with every purchase.</p>
+                                    <div class="macbook-cta-link mt-3 text-center">
+                                        <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                                        <a href="#">Buy <i class="fa fa-angle-right "></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <div class="music-live-div">
+                            <div class="macbook-pro-content">
+                                <div class="iphone-thirty-info">
+                                    <img src="/src/img/promo_logo_aml__eev5f1svfugm_large.svg" alt=""
+                                        style="width: 220px; margin:auto; display: flex ;margin-bottom: 10px;">
+
+                                </div>
+                                <div class="iphone-thirty-img  music-live-img macbook-thirty-pro-img">
+
+                                    <div class="iphone-thirty-info music-live-info">
+                                        <p class="text-white"> Light. Bright. Full of might.</p>
+                                        <div class="macbook-cta-link mt-3 text-center">
+                                            <a href="#">Learn more <i class="fa fa-angle-right "></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      
+                  </div>
                 </div>
 
-            </div>
+        </section>  
+        <!--======================================= 
+                         watch-ipad-section section
+        ===========================  -->
 
-            <!-- step two  -->
-            <!-- step two  -->
-            <!-- step two  -->
-            <div class="three-simple-overlay">
-                <div class="tap-container">
-                    <div class="three-simple-header">
 
-                    </div>
 
-                    <div class="three-simple-main">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-6 col-sm-12">
-                                <div class="row three-simple-info">
-                                    <div class="col-3 three-simple-step three-simple-step-2">
-                                        <div class="step">
-                                            <h1>2</h1>
+        <!-- slider section -->
+        <!-- slider section -->
+        <!-- slider section -->
 
-                                        </div>
-                                        <div class="vertical-underline">
-                                            .
-                                        </div>
 
+        <section class="home-slider-section">
+            <div class="home-slider-section-wrapper">
+                <div class="home-slider-container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-1.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-8 three-simple-desc">
-                                        <h2>Connect and negotiate with buyers and sellers</h2>
-                                        <p>
-                                            Oper connects buyers with business owners without having to share irrelevant
-                                            details.
-                                            <br>
-                                            <br>
 
-                                            Fuss-free communication.
-                                            Communicate everything, all in one platform.
 
-                                        </p>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-6 col-sm-12">
-                                <div class="three-simple-img-box">
-                                    <div class="three-simple-img-before">
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-2.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
 
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="three-simple-img-head-2">
 
-                                        <img src="/src/img/fadi-g.png" alt="">
 
-                                    </div>
-                                    <div class="three-simple-img-after-2">
-                                        <img src="/src/img/view-offer.png" alt="">
-                                    </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-3.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-4.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-5.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-6.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-7.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-8.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-9.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-10.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/src/img/slider-11.jpg" alt="">
+                                <div class="swiper-slider-content">
+                                    
+
+                                    <div class="slider-info-content">
+                                        <a href="#" class="stream-now">Stream Now  <i class="fa fa-play-circle"></i></a>
+                                        <p class="stream-now-text"><strong>Drama</strong> ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                           
+
+
                         </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- step 3  -->
-            <!-- step 3  -->
-            <!-- step 3  -->
-            <div class="three-simple-overlay">
-                <div class="tap-container">
-                    <div class="three-simple-header">
-
-                    </div>
-
-                    <div class="three-simple-main">
-                        <div class="row">
-                            <div class="col-lg-7 col-md-6 col-sm-12">
-                                <div class="row three-simple-info">
-                                    <div class="col-3 three-simple-step three-simple-step-2">
-                                        <div class="step">
-                                            <h1>3</h1>
-
-                                        </div>
-
-
-                                    </div>
-                                    <div class="col-8 three-simple-desc">
-                                        <h2>Get documents verified and finish transaction securely</h2>
-                                        <p>
-                                            Oper is here to help verify every step to make sure buyers and sellers
-                                            successfully closes the
-                                            deal.
-                                            <br>
-                                            <br>
-                                            With an escrow system, buyer's and seller's transactions are guaranteed to
-                                            be safe and fair.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6 col-sm-12">
-                                <div class="three-simple-img-box">
-                                    <div class="three-simple-img-before-3">
-
-                                    </div>
-                                    <div class="three-simple-img-head-3">
-
-                                        <img src="/src/img/purchage-agrument.png" alt="">
-
-                                    </div>
-                                    <div class="three-simple-img-after-3">
-                                        <img src="/src/img/check-email.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- seller section  -->
-        <!-- seller section  -->
-        <!-- seller section  -->
-
-
-        <section class="oper">
-            <div class="buyer-section">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="buyer-section-info ">
-                                <h1 class="buyer-title me-lg-6">
-                                    Oper for <br> sellers
-                                </h1>
-                                <div>
-                                    <ul class="buyer-list">
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Free business listing
-                                        </li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Secured business
-                                            information
-                                        </li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Secured personal
-                                            information
-                                        </li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Safe transaction</li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Free consultation</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="img-box-container position-relative">
-                                <div class="seller-img-box float-md-start mt-4 pt5 ">
-                                    <div class="seller-img-before">
-                                        <img src="/src/img/offer-3.png" alt="">
-                                    </div>
-                                    <div class="seller-img-main">
-                                        <img src="/src/img/off.png" alt="">
-                                    </div>
-                                    <div class="seller-img-after">
-                                        <img src="/src/img/view-request.png" alt="">
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
-            <!-- seller section  -->
-            <!-- seller section  -->
-            <!-- seller section  -->
-
-            <!-- buyer-section -->
-            <!-- buyer-section -->
-            <!-- buyer-section -->
-            <!-- buyer-section -->
-            <!-- buyer-section -->
-            <!-- buyer-section -->
-            <div class="buyer-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="img-box-container position-relative">
-                                <div class="buyer-img-box ">
-                                    <div class="buyer-img-before">
-                                        <img src="/src/img/request-access.png" alt="">
-                                    </div>
-                                    <div class="buyer-img-main">
-                                        <img src="/src/img/view-details.png" alt="">
-                                    </div>
-                                    <div class="buyer-img-after">
-                                        <img src="/src/img/send-offer.png" alt="">
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="buyer-section-info ">
-                                <h1 class="buyer-title me-lg-6">
-                                    Oper for <br>
-                                    buyers
-                                </h1>
-                                <div>
-                                    <ul class="buyer-list">
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Send request and offers
-                                            for
-                                            free</li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Secured personal
-                                            information
-                                        </li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Safe transaction</li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Guaranteed a good deal
-                                        </li>
-                                        <li class="buyer-list-icon"><i class="fa fa-check"></i>Free consultation</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
 
 
 
-        <!------------------------- Buyers section End Abdul Hakim  --------------------------->
+        <!-- footer section  -->
+        <!-- footer section  -->
+        <!-- footer section  -->
+        <!-- footer section  -->
+        <!-- footer section  -->
 
-        <section>
-            <div class="business-section">
-                <div class="container business-content">
-                    <h1 class="business-title text-white">Sell and buy businesses with Oper</h1>
-                    <h3 class="business-sub-title text-white">Simply sell and buy business with ease and security.</h3>
-                    <div class="business-btn-section">
-                        <button class="business-btn  "><a target="blank"
-                                href="https://oj2654v5gi2.typeform.com/to/PKgSq0Yb" class="text-decoration-none "> I
-                                want to sell my business</a></button>
-                        <button class="business-btn  "><a target="blank"
-                                href="https://oj2654v5gi2.typeform.com/to/PKgSq0Yb" class="text-decoration-none"> I
-                                want to buy my business</a></button>
-                    </div>
+
+
+        <footer class="footer-section">
+
+            <div class="footer-container">
+                <div class="footer-top-desc">
+                    <p>
+                        1. Qualified Purchasers receive an Apple Gift Card when they purchase an eligible Mac or iPad at
+                        a Qualifying Location. Only one Apple Gift Card per eligible Mac or iPad per Qualified
+                        Purchaser. Offer subject to availability. While supplies last. Qualified Purchasers shall
+                        receive a discount equal to the value of the Apple Gift Card off the price of the eligible Mac
+                        or iPad, but will be charged for all items in their cart, including the Apple Gift Card.
+                        Important notice regarding the checkout receipt and monthly statement for Apple Card Monthly
+                        Installment (ACMI) purchases with this promotion: Qualified Purchasers selecting ACMI (a 0% APR
+                        payment option) as payment type at checkout shall receive a discount equal to the value of the
+                        Apple Gift Card off the price of the eligible Mac or iPad. This will result in one ACMI
+                        installment plan over 12 months for the eligible iPad or Mac discounted by the instant credit,
+                        and a second ACMI installment plan over 12 months for the full price of the Apple Gift Card. The
+                        total combined amount charged over the two separate ACMI installment plans will reflect the
+                        original full retail price of the Eligible Product. Separately, Qualified Purchasers will
+                        receive and be charged for the Apple Gift Card in the amount of the applicable discount off the
+                        eligible Mac or iPad. ACMI is subject to credit approval and credit limit. Variable APRs for
+                        Apple Card other than ACMI range from 12.49% to 23.49% based on creditworthiness. Rates as of
+                        July 1, 2022. If you choose the pay‑in‑full or one‑time‑payment option for an ACMI‑eligible
+                        purchase instead of choosing ACMI as the payment option at checkout, that purchase will be
+                        subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in
+                        ACMI transactions and are subject to your standard purchase APR. See the Apple Card Customer
+                        Agreement at https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf
+                        for more information. ACMI is not available for purchases made online at the following special
+                        stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple
+                        at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on
+                        refurbished devices. Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+                        Available for qualifying applicants in the United States. If you reside in the U.S. territories,
+                        please call Goldman Sachs at 877-255-5923 with questions about accessing this offer or applying
+                        for Apple Card. This offer cannot be combined with the Apple Employee Purchase Plan or business
+                        loyalty pricing. Availability of in‑store promotion offerings may be limited by Apple Store
+                        location closures as a result of COVID‑19. Additional restrictions apply. View full terms and
+                        conditions of offer here.
+                        <br>
+                        To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone
+                        or iPad with the latest version of iOS or iPadOS. Update to the latest version by going to
+                        Settings > General > Software Update. Tap Download and Install.
+                        <br>
+                        <br>
+                        Available for qualifying applicants in the United States.
+                        <br>
+                        <br>
+                        Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+                        <br>
+                        <br>
+                        Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+                        <br>
+                        <br>
+                        Major League Baseball trademarks and copyrights are used with permission of MLB Advanced Media,
+                        L.P. All rights reserved.
+
+                    </p>
                 </div>
-            </div>
-
-        </section>
-
-
-
-    </main>
-
-    <!---------------------------------- footer section Start Abdul Hakim ---------------------------->
-
-
-    <footer>
-        <div class="footer-section">
-            <div class="container">
-                <div class="fotter-logo">
-                    <a href="index.html">
-
-                        <img src="/src/img/logo.png" alt="">
-                    </a>
-
-                </div>
-                <p class="footer-desc">Buy and sell business with ease.</p>
-                <p class="footer-desc">Simple. Free. Secure.</p>
-                <p class="footer-desc emailid my-5"><i class="fa fa-envelope email-icon"></i> hello@takeoper.id</p>
-                <div>
-                    <ul class="d-flex">
-                        <li class="footer-icon"><i class="fa fa-facebook"></i></li>
-                        <li class="footer-icon"><i class="fa fa-instagram"></i></li>
-                        <li class="footer-icon"><i class="fa fa-linkedin"></i></li>
+                <div class="footer-ul-list">
+                    <ul>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">Shope and Learn</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">Services</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">Account</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">Apple Store</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">For Business</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">For Educaion</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">For Healthcare</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between"><a href="#">For Government</a> <i class="fa fa-angle-right "></i></li>
+                        <li class="ul-list d-flex justify-content-between border-bottom-0"><a href="#">Apple Values</a> <i class="fa fa-angle-right "></i></li>
+                       
+                      
                     </ul>
                 </div>
-                <div class="my-5">
-                    <hr class="mx-3 my-5">
-                    <p class="  copyright text-center">Oper &copy; 2020 All right reserved</p>
+                <div class="footer-items">
+                    <div class="footer-item-wrapper">
+                        <div class="footer-item">
+                            <h6 class="footer-item-title">
+                                Shop and Learn
+                            </h6>
+                            <ul>
+                                <li class="footer-list"><a href="#"> Store</a></li>
+                                <li class="footer-list"><a href="#"> Mac</a></li>
+                                <li class="footer-list"><a href="#">iPad</a> </li>
+                                <li class="footer-list"><a href="#">iPhone</a> </li>
+                                <li class="footer-list"><a href="#">Watch</a> </li>
+                                <li class="footer-list"><a href="#">AirPods</a> </li>
+                                <li class="footer-list"><a href="#">TV & Home</a> </li>
+                                <li class="footer-list"><a href="#"> AirTag</a></li>
+                                <li class="footer-list"><a href="#">Accessories</a> </li>
+                                <li class="footer-list"><a href="#">Gift Cards</a> </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6 class="footer-item-title">
+                                Services
+                            </h6>
+                            <ul>
+                                <li class="footer-list"> <a href="#">Apple Music</a> </li>
+                                <li class="footer-list"> <a href="#">Apple TV+</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Fitness+</a> </li>
+                                <li class="footer-list"> <a href="#">Apple News+</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Arcade</a> </li>
+                                <li class="footer-list"> <a href="#">Apple iCloud</a> </li>
+                                <li class="footer-list"> <a href="#">Apple one</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Card</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Books</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Podacasts</a> </li>
+                                <li class="footer-list"> <a href="#"><strong>Account</strong></a> </li>
+                                <li class="footer-list"> <a href="#">Manage Your Apple Id</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Store Account</a> </li>
+                                <li class="footer-list"> <a href="#">ICloud.com</a> </li>
+                              
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6 class="footer-item-title">
+                               Apple Store
+                            </h6>
+                            <ul>
+                                <li class="footer-list"> <a href="#">Find a Store</a> </li>
+                                <li class="footer-list"> <a href="#">Genius Bar</a> </li>
+                                <li class="footer-list"> <a href="#">Today at Apple</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Store App</a> </li>
+                                <li class="footer-list"> <a href="#">Refurbished and Clearance</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Trade In</a> </li>
+                                <li class="footer-list"> <a href="#">Financing</a> </li>
+                                <li class="footer-list"> <a href="#">Order Status</a> </li>
+                                <li class="footer-list"> <a href="#">Shopping Help</a> </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6 class="footer-item-title">
+                               For Business
+                            </h6>
+                            <ul>
+                                <li class="footer-list"> <a href="#">Apple and Business</a> </li>
+                                <li class="footer-list"> <a href="#">Shop for Business</a> </li>
+                                <li class="footer-list"> <a href="#"><strong>For Education
+                                        </strong></a> </li>
+                                <li class="footer-list"> <a href="#">Apple and Education</a> </li>
+                                <li class="footer-list"> <a href="#">Shop for K-12</a> </li>
+                                <li class="footer-list"> <a href="#">Shop for College</a> </li>
+                                <li class="footer-list"> <a href="#"><strong>For Healthcare
+                                        </strong></a> </li>
+                                <li class="footer-list"> <a href="#">Apple in Healthcare</a> </li>
+                                <li class="footer-list"> <a href="#">Health on Apple Watch</a> </li>
+                                <li class="footer-list"> <a href="#">Health Records on iPhone</a> </li>
+                                <li class="footer-list"> <a href="#">For Government</a> <strong></strong></li>
+                                <li class="footer-list"> <a href="#">Shop for Government</a> </li>
+                                <li class="footer-list"> <a href="#">Shop for Veterans and Military</a> </li>
+                            </ul>
+                        </div>
+                        <div class="footer-item">
+                            <h6 class="footer-item-title">
+                               Apple Values
+                            </h6>
+                            <ul>
+                                <li class="footer-list"> <a href="#">Accessibility</a> </li>
+                                <li class="footer-list"> <a href="#">Education</a> </li>
+                                <li class="footer-list"> <a href="#">Environment</a> </li>
+                                <li class="footer-list"> <a href="#">Inclusion and Diversity</a> </li>
+                                <li class="footer-list"> <a href="#">Privacy</a> </li>
+                                <li class="footer-list"> <a href="#">Racial Equity and Justice</a> </li>
+                                <li class="footer-list"> <a href="#">Supplier Responsibility</a>
+</li>
+                                <li class="footer-list"> <a href="#">About Apple</a> <strong></strong></li>
+                                <li class="footer-list"> <a href="#">Newsroom</a> </li>
+                                <li class="footer-list"> <a href="#">Apple Leadership</a> </li>
+                                <li class="footer-list"> <a href="#">Career Opportunities</a> </li>
+                                <li class="footer-list"> <a href="#">Investors</a> </li>
+                                <li class="footer-list"> <a href="#">Ethics & Compliance</a> </li>
+                                <li class="footer-list"> <a href="#">Events</a> </li>
+                                <li class="footer-list"> <a href="#">Contact Apple</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                 </div>
-
+                <p>More ways to shop: <a href="#" class="text-decoration-none">Find an Apple </a> Store or <a href="#"
+                        class="text-decoration-none">other retailer</a> near
+                    you. Or call
+                    1-800-MY-APPLE.</p>
+                <div class="footer-bottom-copy-write">
+                    <div class="d-flex footer-bottom-copy-write-wrapper">
+                        <div class="d-flex footer-bottom-all-link">
+                            <div>
+                                <small>Copyright &copy; 2022 Apple Inc . All rights reserved.</small>
+                            </div>
+                            <div  class="footer-bottom-link">
+                               <small> <a href="#">Privacy Policy</a></small>
+                                <small><a href="#">Terms of Use</a></small>
+                               <small> <a href="#">Sales and Refunds</a></small>
+                               <small> <a href="#">Legal</a></small>
+                               <small> <a href="#">Site Map</a></small>
+                            </div>
+                        </div>
+                        <div><small><a href="#" style="text-decoration: none;color:#333">United States</a></small></div>
+                    </div>
+                </div>
+            
             </div>
-        </div>
-    </footer>
 
-
-    <!---------------------------------- footer section end Abdul Hakim ---------------------------->
-
-    <!-- footer section end  -->
+        </footer>
 
 
 
-    <!-- bootstap js link  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!---------------------------------- footer section end Abdul Hakim ---------------------------->
+
+        <!-- footer section end  -->
+
+
+
+        <!-- bootstap js link  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+
+        <script src="/src/js/script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
+
 </body>
 
 </html>

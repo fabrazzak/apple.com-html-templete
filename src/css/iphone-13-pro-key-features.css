@@ -1,0 +1,1198 @@
+.header-sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid rgba(171, 169, 169, 0.428);
+}
+
+.header-sticky-container {
+  max-width: 991px;
+  width: 100%;
+  margin: auto;
+}
+.iphone-13-pro-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+.iphone-13-brand-text a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  line-height: 1.1;
+}
+.iphone-13-pro-list-item ul {
+  display: flex;
+}
+.iphone-13-pro-list-item li {
+  list-style: none;
+}
+.iphone-13-pro-list-item li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  opacity: 0.88;
+  margin-right: 24px;
+}
+.buy-btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  background: #0071e3;
+  color: #fff !important;
+  border-radius: 980px;
+  font-weight: 400;
+  min-width: 23px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 1 !important;
+}
+
+/* iphone-13-pro-top-homepage-section */
+/* iphone-13-pro-top-homepage-section */
+
+@keyframes myfirst {
+  0% {
+    background-color: #0071e3;
+    color: #fff;
+    height: 0;
+  }
+  50% {
+    background-color: #0071e3;
+  }
+  80% {
+    background-color: #0071e3;
+    color: #fff;
+    height: 60px;
+  }
+  100% {
+    background-color: #f5f5f7;
+    height: 60px;
+  }
+}
+.iphone-13-pro-top-homepage-section {
+  animation: myfirst 2s linear 0s;
+}
+.section-content {
+  height: 60px;
+  padding-top: 30px;
+}
+
+.iphone-13-pro-list-item-tab {
+  display: none;
+}
+#iphone-13-pro-list-item-dropdown {
+  display: none;
+}
+
+/* iphone 13 pro top home page section  */
+/* iphone 13 pro top home page section  */
+/* iphone 13 pro top home page section  */
+/* iphone 13 pro top home page section  */
+/* iphone 13 pro top home page section  */
+.iphone-13-pro-section {
+  padding: 30px 0px;
+}
+.iphone-13-pro-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.iphone-13-pro-info h4 {
+  font-size: 21px;
+  line-height: 1.1904761905;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+}
+.iphone-13-pro-info h1 {
+  font-size: 60px;
+  line-height: 1.534933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+}
+.iphone-13-pro-desc {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.iphone-13-pro-desc p {
+  font-size: 21px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  color: #49494f;
+}
+.iphone-13-pro-button {
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  background-color: #0071e3;
+  color: #fff;
+  max-width: 100px;
+  width: 100%;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 500px;
+  margin-bottom: 30px;
+}
+
+.iphone-13-all-serise {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.iphone-13-all-serise img {
+  max-width: 1130px;
+  width: 100%;
+}
+
+.iphone-13-pro-all-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  margin: 3px;
+}
+#hero-gold {
+  background-color: #fae7cf;
+}
+#hero-silva {
+  background-color: #f5f5f7 50%;
+}
+
+#hero-blue {
+  background-color: #a7c1d9;
+}
+#hero-graphite {
+  background-color: #54524f;
+}
+#hero-green {
+  background-color: #394c38;
+}
+#hero-gold-img {
+  display: none;
+}
+#hero-silva-img {
+  display: none;
+}
+
+#hero-blue-img {
+  display: none;
+}
+#hero-graphite-img {
+  display: none;
+}
+#hero-green-img {
+}
+#hero-green-btn {
+  border-radius: 50%;
+  margin: 10px;
+}
+#hero-blue-btn {
+  border-radius: 50%;
+  margin: 10px;
+}
+#hero-silva-btn {
+  border-radius: 50%;
+  margin: 10px;
+}
+#hero-graphite-btn {
+  border-radius: 50%;
+  margin: 10px;
+}
+#hero-gold-btn {
+  border-radius: 50%;
+  margin: 10px;
+}
+.iphone-btn-text {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+#green-text {
+  display: block;
+}
+#blue-text {
+  display: none;
+}
+#gold-text {
+  display: none;
+}
+#silva-text {
+  display: none;
+}
+#graphite-text {
+  display: none;
+}
+
+/* smartphone section  */
+/* smartphone section  */
+/* smartphone section  */
+/* smartphone section  */
+
+.smartphone-section {
+  background-color: #f5f5f7;
+  padding: 30px 20px 0px 20px;
+}
+.smartphone-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+
+.smartphone-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 927px;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.smartphone-wrapper h1 {
+  z-index: 1;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 48px;
+}
+.smartphone-video {
+  position: absolute;
+  top: 0;
+}
+
+.battery-life-info {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding-left: 30px;
+  border-radius: 30px;
+  position: relative;
+}
+.battery-life-info h5 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.19;
+  margin-bottom: 30px;
+}
+.battery-life-info h1 {
+  font-size: 72px;
+  line-height: 0.9;
+  font-weight: 600;
+}
+.plus-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #000;
+  background-color: transparent;
+}
+
+/* A dramatically more powerfulPro camera  */
+
+.shoot-macro {
+  background-image: url("/src/img//macro__lu3rc7xo7rma_large.jpg");
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.shoot-macro h3 {
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.08l;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  position: absolute;
+  top: 20px;
+}
+
+.dramatically-img {
+  background-image: url("/src/img/pro_camera__dp0jfat9ptiu_large.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.dramatically-wrapper {
+  background-color: #fff;
+}
+.dramatically-text {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  padding: 30px 30px 0px 30px;
+}
+
+.five-g-img {
+  background-image: url("/src/img/5g__cmkwm4fvg0b6_large.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.selfie-img {
+  background-image: url("/src/img/true_depth_static__fiufc15143ma_large.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.selfie-text {
+  font-size: 48px;
+  line-height: 1.08;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  padding: 30px 30px 0px 30px;
+}
+
+.five-g-img-tab {
+  display: none;
+}
+.dramatically-img-tab {
+  display: none;
+}
+
+.superfast-section {
+  border-radius: 30px !important;
+}
+.superfast-text {
+  margin-bottom: 50px;
+}
+
+/* groundbreaking-section */
+/* groundbreaking-section */
+/* groundbreaking-section */
+
+.groundbreaking-section {
+  padding: 30px 0px 0px 0px;
+  background-color: #f5f5f7;
+}
+.groundbreaking-container {
+  max-width: 1400px;
+  margin: auto;
+}
+.groundbreaking-wrapper {
+  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.groundbreaking-vedio {
+  right: 0;
+  position: absolute;
+  width: 1400px;
+}
+.groundbreaking-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  color: #fff;
+  font-size: 48px;
+}
+
+.groundbreaking-plus-btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.fumble-info {
+  background-color: #000;
+  border-radius: 30px;
+  height: 550px;
+  overflow: hidden;
+  position: relative !important;
+}
+.fumble-info img {
+  width: 100%;
+}
+.fumble-info h1 {
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 48px;
+}
+
+.ios-fifteen-section {
+  padding: 30px 0px;
+  background-color: #f5f5f5;
+}
+.ios-container {
+  max-width: 1400px;
+  width: 100%;
+  border-radius: 50px;
+  margin: auto;
+}
+
+/* There’s no phone like iPhone. */
+/* There’s no phone like iPhone. */
+/* There’s no phone like iPhone. */
+
+.like-iphone-section {
+  padding: 10% 0% 3% 0%;
+  background-color: #f5f5f7;
+}
+.like-iphone-container {
+  max-width: 1180px;
+  width: 100%;
+  margin: auto;
+}
+.like-iphone-info {
+  max-width: 500;
+  margin-bottom: 15%;
+}
+.like-iphone-info-two {
+  margin-left: 20%;
+}
+.like-iphone-title {
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.like-iphone-info img {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 30px;
+}
+.iphone-privacy {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+.like-iphone-info p {
+  font-size: 19px;
+  line-height: 1.4211026316;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+/* <!-- Upgrading from a previous iPhone? --> */
+/* <!-- Upgrading from a previous iPhone? --> */
+/* <!-- Upgrading from a previous iPhone? --> */
+/* <!-- Upgrading from a previous iPhone? --> */
+
+.upgrading-section {
+  padding-top: 5%;
+}
+.switching-section {
+  padding-top: 1%;
+}
+.upgrading-container {
+  max-width: 980px;
+  margin: auto;
+}
+.upgrading-wrapper {
+  background-color: #f5f5f7;
+  min-height: 450px;
+  display: flex;
+  justify-items: center;
+  margin: auto;
+}
+.upgrading-info {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  text-align: center;
+  padding: 5% 3%;
+}
+.upgrading-info h2 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+  padding: 5% 0%;
+}
+.upgrading-info p {
+  font-size: 19px;
+  line-height: 1.4211026316;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+/* Which iPhone is right for you?   */
+/* Which iPhone is right for you?   */
+/* Which iPhone is right for you?   */
+/* Which iPhone is right for you?   */
+.which-iphone-section {
+  padding: 8% 0% 4% 0%;
+}
+.which-iphone-container {
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+}
+.which-title {
+  font-size: 56px;
+  line-height: 1.0714285714;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  text-align: center;
+  margin-bottom: 6%;
+}
+.which-iphone-name {
+  font-size: 17px;
+  line-height: 1.2353641176;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.which-price {
+  margin: auto;
+  text-align: center;
+  padding: 30px 0px;
+  position: relative;
+  border-bottom: 2px solid #d2d2d7;
+  height: 323px;
+}
+
+.which-info {
+  text-align: center;
+  margin-top: 40px;
+}
+.which-info h4 {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0em;
+}
+.which-info p {
+  font-size: 14px;
+  line-height: 1.4285914286;
+  font-weight: 400;
+  letter-spacing: -0.016em;
+}
+.last-which-info {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d2d2d7;
+}
+.which-iphone-img {
+  max-height: 260px;
+}
+.which-info {
+  height: 80px;
+}
+
+/* way-to-buy-section */
+/* way-to-buy-section */
+/* way-to-buy-section */
+
+.way-to-buy-section {
+  padding-top: 1%;
+}
+.way-to-buy-section-container {
+  max-width: 1450px;
+  width: 100%;
+  margin: auto;
+}
+.way-to-buy-title h1 {
+  font-size: 96px;
+  line-height: 1.0416666667;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.way-to-buy-info {
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 5%;
+}
+.way-to-buy-info-wrapper {
+  max-width: 950px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.way-to-buy-info-wrapper h4 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+  margin-bottom: 20px;
+}
+.way-to-buy-info-wrapper h1 {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.0834933333;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  margin-bottom: 30px;
+}
+.way-to-buy-info-wrapper p {
+  text-align: center;
+  font-size: 19px;
+  line-height: 1.381002381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+}
+.way-img {
+  padding-bottom: 20px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.way-to-btn {
+  max-width: 250px;
+  background-color: #0071e3;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+/* trade-in-smartphone-section */
+/* trade-in-smartphone-section */
+/* trade-in-smartphone-section */
+/* trade-in-smartphone-section */
+
+.trade-in-smartphone-section {
+  padding: 10% 0% 5% 0%;
+  background-color: #f5f5f7;
+  margin-top: 5%;
+}
+.trade-in-smartphone-container {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+.trade-in-smartphone-info {
+  max-width: 400px;
+  text-align: center;
+}
+.trade-in-smartphone-info-two {
+  float: right;
+}
+.trade-in-smartphone-info h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+}
+
+.trade-in-smartphone-info p {
+  font-size: 19px;
+  line-height: 1.2105263158;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+}
+
+/* Free next-day delivery */
+/* Free next-day delivery */
+/* Free next-day delivery */
+/* Free next-day delivery */
+.free-next-section{
+  background-color: #f5f5f7;
+
+}
+.free-next-container{
+  max-width: 991px;
+  margin: auto;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 5% 0%;
+}
+.free-text-info img{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+
+}
+.free-text-info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  max-width: 250px;
+
+}
+.free-text-info h4{
+  font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+
+}
+.free-text-info p{
+font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+
+.footer-all-text p{ 
+  font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+
+}
+.footer-all-text ol li{ 
+  font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+
+}
+.pro-key-footer{
+  margin-top: 0;
+}
+
+/* ===============================================================================================================================Responsive css for tab 
+============================================================================================================================= */
+
+@media only screen and (max-width: 1023px) {
+  .header-sticky-top {
+    padding: 15px 0px 25px 0px;
+  }
+  .iphone-13-pro-list-item-des {
+    display: none;
+  }
+  .iphone-13-pro-list-item-tab {
+    display: block;
+  }
+
+  #iphone-13-pro-list-item-dropdown {
+    display: block;
+  }
+  .iphone-13-pro-list-item-dropdown {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    margin-top: -100%;
+    display: block;
+  }
+  .iphone-13-pro-list-item-dropdown li {
+    border-bottom: 1px solid rgba(159, 152, 152, 0.461);
+    padding: 5px 0px;
+  }
+  .last-child-iphone {
+    border-bottom: none !important;
+  }
+  .iphone-13-pro-list-item-dropdown li a {
+    font-size: 15px;
+  }
+
+  #iphone-13-dropdown-open {
+    display: none;
+  }
+
+  /* smartphone section  */
+  /* smartphone section  */
+  /* smartphone section  */
+  /* smartphone section  */
+
+  .smartphone-container {
+    max-width: 750px;
+    width: 100%;
+    margin: auto;
+  }
+  .smartphone-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    height: 400px;
+  }
+  .smartphone-video {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  .battery-life-info h5 {
+    font-size: 16px;
+  }
+  .battery-life-info h1 {
+    font-size: 28px;
+  }
+
+  /* A dramatically more powerfulPro camera */
+  /* A dramatically more powerfulPro camera */
+  /* A dramatically more powerfulPro camera */
+
+  .dramatically-img {
+    width: 100%;
+  }
+
+  .dramatically-text {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -0.004em;
+    padding: 10px 10px 0px 10px;
+  }
+  .shoot-macro h3 {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -0.004em;
+    position: absolute;
+    top: 20px;
+  }
+  .selfie-text {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: -0.004em;
+    padding: 10px 10px 0px 10px;
+  }
+
+  .five-g-img {
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .five-g-img-tab {
+    display: block;
+  }
+
+  .dramatically-img-tab {
+    display: block;
+  }
+
+  /* groundbreaking-section  */
+  /* groundbreaking-section  */
+  /* groundbreaking-section  */
+
+  .groundbreaking-wrapper {
+    position: relative;
+    max-width: 730px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: auto;
+  }
+  .groundbreaking-vedio {
+    right: 0;
+    position: absolute;
+    width: 730px;
+    margin: auto;
+  }
+
+  .groundbreaking-text {
+    font-size: 32px;
+    color: #fff;
+  }
+
+  .groundbreaking-plus-btn {
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .fumble-info {
+    background-color: #000;
+    border-radius: 30px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .fumble-info img {
+    width: 100%;
+  }
+  .fumble-info h1 {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 32px;
+  }
+
+  .like-iphone-info {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+  }
+  .like-iphone-info-two {
+    margin-left: 0%;
+  }
+
+  .which-title {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  /* way-to-buy-section */
+  /* way-to-buy-section */
+  /* way-to-buy-section */
+
+  .way-to-buy-title h1 {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -0.009em;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  .way-to-buy-info-wrapper h4 {
+    font-size: 21px;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    margin-bottom: 20px;
+  }
+  .way-to-buy-info-wrapper h1 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    margin-bottom: 30px;
+  }
+  .way-collum {
+    margin-bottom: 30px;
+  }
+
+  /* trade-in-smartphone-section */
+  /* trade-in-smartphone-section */
+  /* trade-in-smartphone-section */
+  /* trade-in-smartphone-section */
+  .trade-in-smartphone-info {
+    max-width: 400px;
+    text-align: center;
+  }
+  .trade-in-smartphone-container {
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+  }
+  .trade-in-smartphone-info h2 {
+    font-size: 21px;
+    line-height: 1.1904761905;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+  }
+
+  .trade-in-smartphone-info p {
+    font-size: 17px;
+    line-height: 1.2353641176;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+  }
+}
+/* ===============================================================================================================================Responsive css for mobile 
+============================================================================================================================= */
+
+@media only screen and (max-width: 767px) {
+  /* hero section  */
+  /* hero section  */
+  /* hero section  */
+  /* hero section  */
+  /* hero section  */
+
+  .section-content {
+    padding: 45px 0;
+  }
+
+  /* .smartphone-section  */
+  /* .smartphone-section  */
+  /* .smartphone-section  */
+  /* .smartphone-section  */
+
+  .battery-life-info {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    padding-left: 30px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 20px;
+  }
+  .battery-life-info h5 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.19;
+    margin-bottom: 30px;
+  }
+  .battery-life-info h1 {
+    font-size: 52px;
+    line-height: 0.9;
+    font-weight: 600;
+  }
+
+  .five-g-img {
+    background-image: none;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .five-g-img-tab {
+    display: none;
+  }
+
+  .dramatically-img-tab {
+    display: none;
+  }
+
+  .five-g-img {
+    background-image: url("/src/img/5g__cmkwm4fvg0b6_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+  }
+
+  .groundbreaking-text {
+    top: 20px;
+  }
+  .groundbreaking-plus-btn {
+    top: 20px;
+  }
+
+  .smartphone-wrapper h1 {
+    font-size: 28px;
+  }
+
+  .groundbreaking-wrapper {
+    height: 300px;
+  }
+  .groundbreaking-text {
+    font-size: 28px;
+  }
+  .selfie-text {
+    font-size: 28px;
+  }
+
+  .dramatically-text {
+    font-size: 28px;
+  }
+  .smartphone-wrapper {
+    margin-top: 30px;
+  }
+
+  .fumble-info h1 {
+    font-size: 28px;
+  }
+
+  .ios-img-one {
+    margin-top: 30px;
+  }
+  /* There’s no phone like iPhone. */
+  /* There’s no phone like iPhone. */
+  /* There’s no phone like iPhone. */
+
+  .like-iphone-title {
+    font-size: 40px;
+  }
+  .iphone-privacy {
+    font-size: 28px;
+  }
+  /* <!-- Upgrading from a previous iPhone? --> */
+  /* <!-- Upgrading from a previous iPhone? --> */
+  /* <!-- Upgrading from a previous iPhone? --> */
+  /* <!-- Upgrading from a previous iPhone? --> */
+  upgrading-info {
+    padding: 10% 5%;
+  }
+  .upgrading-info h2 {
+    font-size: 32px;
+  }
+  .upgrading-info p {
+    font-size: 14px;
+  }
+  .upgrading-container {
+    max-width: 980px;
+    margin: auto;
+    padding: 3%;
+  }
+
+  .which-title {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: 0.004em;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+
+  /* way-to-buy-section */
+  /* way-to-buy-section */
+  /* way-to-buy-section */
+  .way-to-buy-title h1 {
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .trade-in-smartphone-info {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 2% 0%;
+  }
+
+  .trade-in-smartphone-info-two {
+    float: none;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .groundbreaking-vedio {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .groundbreaking-vedio {
+    width: 100%;
+    height: auto;
+  }
+}

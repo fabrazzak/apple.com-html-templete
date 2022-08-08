@@ -734,11 +734,12 @@
 
 }
 .free-next-container{
-  max-width: 991px;
+  max-width: 900px;
   margin: auto;
+  width: 100%;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  padding: 5% 0%;
+ 
 }
 .free-text-info img{
   width: 50px;
@@ -793,7 +794,7 @@ font-size: 1em;
 
 @media only screen and (max-width: 1023px) {
   .header-sticky-top {
-    padding: 15px 0px 25px 0px;
+    padding: 15px 0px 0px 0px;
   }
   .iphone-13-pro-list-item-des {
     display: none;
@@ -809,8 +810,12 @@ font-size: 1em;
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
-    margin-top: -100%;
-    display: block;
+    margin-left: -100%;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    
   }
   .iphone-13-pro-list-item-dropdown li {
     border-bottom: 1px solid rgba(159, 152, 152, 0.461);

@@ -32,15 +32,15 @@ document.getElementById("iphone-13-dropdown-close").addEventListener("click",clo
 
 function myDropdownFunction(){
     console.log("working")
-    document.getElementById('iphone-13-pro-list-item-dropdown').style.marginTop="-100%"
-    document.getElementById('iphone-13-pro-list-item-dropdown').style.transition="2s"
+    document.getElementById('iphone-13-pro-list-item-dropdown').style.marginLeft="-100%"
+    document.getElementById('iphone-13-pro-list-item-dropdown').style.transition="0.5s"
     document.getElementById("iphone-13-dropdown-open").style.display = "none"
     document.getElementById("iphone-13-dropdown-close").style.display = "block"
 }
 function closeDropdownFunction(){
     console.log("working")
-    document.getElementById('iphone-13-pro-list-item-dropdown').style.marginTop="0%"
-    document.getElementById('iphone-13-pro-list-item-dropdown').style.transition="1s"
+    document.getElementById('iphone-13-pro-list-item-dropdown').style.marginLeft="0%"
+    document.getElementById('iphone-13-pro-list-item-dropdown').style.transition="0.5s"
     document.getElementById("iphone-13-dropdown-open").style.display="block"
     document.getElementById("iphone-13-dropdown-close").style.display="none"
 }

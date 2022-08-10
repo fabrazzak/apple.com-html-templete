@@ -64,28 +64,26 @@ h6 {
   font-weight: 500;
   letter-spacing: 0.004em;
   animation: fadeIn 3s;
-  
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    
+
     transform: translateY(50px);
   }
   100% {
     opacity: 1;
-   transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
-
 
 .macbook-super {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-   animation: fadeIn 3s;
+  animation: fadeIn 3s;
 }
 
 .macbook-super h3 {
@@ -130,84 +128,77 @@ h6 {
 }
 .level-up-desc h5 {
   font-size: 28px;
-    line-height: 1.14286;
-    font-weight: 500;
-    letter-spacing: .007em;
-    padding-top: 30px;
+  line-height: 1.14286;
+  font-weight: 500;
+  letter-spacing: 0.007em;
+  padding-top: 30px;
 }
-.level-up-count{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
+.level-up-count {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
-.up-to-count{
-    width: 150px;
-    text-align: left;
-    
+.up-to-count {
+  width: 150px;
+  text-align: left;
 }
-.up-to-count p{
+.up-to-count p {
   font-size: 14px;
-    line-height: 1.28577;
-    font-weight: 400;
-    letter-spacing: -.016em;
+  line-height: 1.28577;
+  font-weight: 400;
+  letter-spacing: -0.016em;
 }
-.up-to-count h1{
-    font-size: 40px;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 0em;
+.up-to-count h1 {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0em;
 }
-.up-to-count small{
-     font-size: 14px;
-    line-height: 1.28577;
-    font-weight: 400;
-    letter-spacing: -.016em;
-}
-
-.level-up-btn{
-    padding-top: 10%;
+.up-to-count small {
+  font-size: 14px;
+  line-height: 1.28577;
+  font-weight: 400;
+  letter-spacing: -0.016em;
 }
 
-.level-up-btn button{
-    border: 3px solid;
-    width: fit-content;
-  border-image:linear-gradient(135deg, #bead47, #922b28, #8e089b) 10;
-    cursor: pointer;
-    text-align: center;
-    font-size: 17px;
-    line-height: 1.17648;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    min-width: 28px;
-    padding: 15px 20px;
-    border-radius: 980px;
-    background: transparent;
-    color: #fff;
-
-
-}
-.level-up-btn button:hover{
-    border: 3px solid #fff;
-    width: fit-content;
-  border-image:none;
-    cursor: pointer;
-    text-align: center;
-    font-size: 17px;
-    line-height: 1.17648;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    min-width: 28px;
-    padding: 15px 20px;
-    border-radius: 980px;
-    background: #fff;
-    font-weight: 600;
-
-    color: #333;
-
-
+.level-up-btn {
+  padding-top: 10%;
 }
 
+.level-up-btn button {
+  border: 3px solid;
+  width: fit-content;
+  border-image: linear-gradient(135deg, #bead47, #922b28, #8e089b) 10;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  min-width: 28px;
+  padding: 15px 20px;
+  border-radius: 980px;
+  background: transparent;
+  color: #fff;
+}
+.level-up-btn button:hover {
+  border: 3px solid #fff;
+  width: fit-content;
+  border-image: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  min-width: 28px;
+  padding: 15px 20px;
+  border-radius: 980px;
+  background: #fff;
+  font-weight: 600;
 
+  color: #333;
+}
 
 /* footer section */
 /* footer section */
@@ -225,7 +216,971 @@ h6 {
 .footer-item-title {
   color: #d2d2d7 !important;
 }
-/* ===============================================================================================================================Responsive css for tab 
+
+/* Compared to MacBook Pro 13  */
+/* Compared to MacBook Pro 13  */
+/* Compared to MacBook Pro 13  */
+
+.compared-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  background-color: #151516;
+  padding: 2%;
+  border-radius: 30px;
+}
+.performance-info h4 {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+}
+.performance-info h2 {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  margin-top: 30px;
+  padding-right: 10%;
+}
+.compared-info {
+  padding-top: 6%;
+}
+.compared-title {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+}
+.video-editing {
+  font-size: 32px;
+  line-height: 1.225;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  margin-top: 40px;
+  max-width: 650px;
+  margin-bottom: 11%;
+}
+.video-editing a {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  margin-top: 40px;
+  color: #86868b;
+}
+.video-editing a:hover {
+  color: #a1a1a6;
+}
+.faster-video {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+  margin-bottom: 5%;
+}
+.progress-info {
+  padding-bottom: 5%;
+}
+
+.progress-info h4 {
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  margin-top: 15px;
+}
+.progress-info-two h4 {
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  margin-top: 15px;
+}
+
+.progress {
+  height: 10px !important;
+}
+@keyframes progress-fade-in {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  animation: progress-fade-in 3s;
+
+  white-space: nowrap;
+  background: linear-gradient(
+      217deg,
+      rgb(255, 0, 225),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(255, 140, 0, 0.999), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(255, 21, 0), rgba(0, 0, 255, 0) 70.71%);
+}
+.progress-div {
+  margin-top: -30px;
+}
+.progress-div h2 {
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: rgb(255, 0, 225);
+}
+.progress-wrapper {
+  padding-bottom: 10%;
+  border-bottom: 2px solid #2c2c2d;
+}
+
+/* thermal-section */
+/* thermal-section */
+/* thermal-section */
+
+.thermal-section {
+  margin-top: 2%;
+}
+.thermal-container {
+  max-width: 1400px;
+  margin: auto;
+}
+.thermal-collum-one {
+  background-color: #151516;
+  padding: 5%;
+  border-radius: 30px;
+  background-image: url("/src/img-macbook/thermal_static__frkjf4ntjbue_large.jpg");
+  min-height: 700px;
+  height: 100%;
+}
+.thermal-collum-two {
+  background-image: url("/src/img-macbook/memory_bg__fu9k4zooujyq_large.jpg");
+  padding: 10%;
+  border-radius: 30px;
+  min-height: 700px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.thermal-img img {
+  display: none;
+}
+.thermal-desc {
+  padding-top: 40%;
+  padding-right: 10%;
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+}
+.unified-info h4 {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+  margin-bottom: 40%;
+}
+.unified-info img {
+  margin-bottom: 30px;
+}
+.unified-desc {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 600;
+  letter-spacing: 0.007em;
+}
+/* Performs well with others */
+/* Performs well with others */
+/* Performs well with others */
+/* Performs well with others */
+.performs-well-section {
+  margin-top: 2%;
+}
+
+.performs-container {
+  min-height: 720px;
+  background-color: #000;
+  background-image: radial-gradient(
+      at 100% 100%,
+      rgba(111, 88, 116, 0.7) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 90% 0%, #0a2961 0px, transparent 50%),
+    radial-gradient(at 18% 16%, rgba(58, 3, 130, 0.79) 0px, transparent 50%),
+    radial-gradient(at 100% 40%, rgba(76, 21, 147, 0.22) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, #74517b 0px, transparent 50%);
+  border-radius: 30px;
+}
+
+.performs-collum-one {
+  background-image: url("/src/img-macbook/macos__3zitq287xeae_large.png");
+  min-height: 700px;
+  height: 100%;
+  padding: 5%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.macso-img {
+  display: none;
+}
+
+.performs-collum-one h1 {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+}
+.performs-info {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30%;
+}
+.performs-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  margin-bottom: 30px;
+}
+.performs-desc {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+}
+
+/* All-day battery */
+/* All-day battery */
+/* All-day battery */
+/* All-day battery */
+/* All-day battery */
+
+.all-day-section {
+  margin-top: 2%;
+}
+.all-day-collum-one {
+  background: linear-gradient(to bottom, #203025 0%, #151516 100%);
+  padding: 8%;
+  border-radius: 30px;
+  min-height: 680px;
+  height: 100%;
+}
+.all-day-collum-two {
+  background: linear-gradient(165deg, #2c4735 0%, #1d243e 60%, #101124 90%);
+  padding: 5% 0 0 5%;
+  border-radius: 30px;
+  min-height: 650px;
+  height: 100%;
+}
+
+.up-to-hours-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+.up-to-hours-info h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  color: #4cd265;
+  text-align: center;
+}
+.portable-info h4 {
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+  letter-spacing: 0.011em;
+}
+.portable-info h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 700;
+  letter-spacing: -0.028em;
+  margin-top: 30%;
+  margin-bottom: 30px;
+}
+.portable-info p {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+}
+.final-cut-pro-info h6 {
+  float: right;
+  padding-right: 5%;
+}
+
+.media-img {
+  width: 100%;
+  padding-top: 10%;
+}
+
+/* MacBook Pro. Securely yours. */
+/* MacBook Pro. Securely yours. */
+/* MacBook Pro. Securely yours. */
+/* MacBook Pro. Securely yours. */
+.securely-section {
+  margin-top: 2%;
+}
+.securely-collum-one {
+  background-color: #151516;
+  padding: 5%;
+  border-radius: 30px;
+  min-height: 700px;
+  height: 100%;
+}
+.security-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  max-width: 550px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.security-macbook {
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 700;
+  letter-spacing: -0.003em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.security-info p {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+}
+.security-collum-two {
+  background: linear-gradient(to right bottom, #1f224b 0%, #2d5d85 100%);
+  padding: 10%;
+  border-radius: 30px;
+  min-height: 700px;
+  height: 100%;
+}
+.storage-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.storage-info h1 {
+  font-size: 96px;
+  line-height: 1.04167;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+.storage-info h4 {
+  font-size: 24px;
+  line-height: 1.33341;
+  font-weight: 500;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+.tb {
+  font-size: 60px;
+}
+.power {
+  font-size: 14px;
+  position: absolute;
+  font-weight: bold;
+}
+.storage-info p {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 600;
+  letter-spacing: 0.012em;
+}
+
+/* retina-section */
+/* retina-section */
+/* retina-section */
+/* retina-section */
+.retina-section {
+  margin-top: 2%;
+}
+.retina-collum {
+  margin: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+}
+.retina-info {
+  margin-top: 15%;
+  padding: 0% 0% 0% 15%;
+  text-align: left;
+}
+.retina-display {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  color: #a1a1a6;
+}
+.retina-see-the-better {
+  font-size: 80px;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  margin-bottom: 30px;
+}
+.retina-info h5 {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 500;
+  letter-spacing: 0.007em;
+  padding-right: 20%;
+  margin-bottom: 40px;
+}
+
+/* brightness-section */
+/* brightness-section */
+/* brightness-section */
+.brightness-section {
+  margin-top: 5%;
+}
+
+.brightness-collum-md-collum {
+  display: none;
+}
+.brightness-collum-one,
+.brightness-collum-two,
+.brightness-collum-three {
+  background-color: #151517;
+  padding: 10%;
+  border-radius: 30px;
+  max-height: 700px;
+  min-height: 700px;
+  height: 100%;
+}
+.brightness-collum-two {
+  background-color: #151517;
+  padding: 10%;
+  border-radius: 30px;
+  max-height: 700px;
+  height: 100%;
+}
+.brightness-collum-three {
+  background-color: #151517;
+  padding: 10%;
+  border-radius: 30px;
+  max-height: 700px;
+  height: 100%;
+  background-image: url("/src/img-macbook/tutone-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.brightness-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+.brightness-info h1 {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 700;
+  letter-spacing: -0.009em;
+  margin-top: 50px;
+}
+.brightness-info h3 {
+  font-size: 28px;
+  line-height: 1.14286;
+  font-weight: 500;
+  letter-spacing: 0.007em;
+}
+
+/* FaceTime HD camera */
+/* FaceTime HD camera */
+/* FaceTime HD camera */
+
+.face-time-collum-one {
+  background-color: #151517;
+  padding: 7%;
+  border-radius: 30px;
+  max-height: 700px;
+  height: 100%;
+}
+.face-time-collum-two {
+  background-color: #151517;
+  padding: 10%;
+  border-radius: 30px;
+  max-height: 700px;
+  height: 100%;
+}
+.signal-info h3 {
+  font-size: 24px;
+  line-height: 1.33341;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+  margin-top: 10%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+.three-mic-info h3 {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  margin-top: 15%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+
+/* .Scissor mechanism  */
+/* .Scissor mechanism  */
+/* .Scissor mechanism  */
+
+.scissor-collum-one{
+  padding: 7%;
+  border-radius: 30px;
+  max-height: 700px;
+  height: 700px;
+      background: linear-gradient(150deg, #124d86 0%, #14204e 100%);
+      position: relative;
+}
+
+
+
+.scissor-collum-two{
+  
+  border-radius: 30px;
+  max-height: 700px;
+  height: 700px;
+  padding: 7%;
+  background-color: #151516;
+  position: relative;
+
+}
+.scissor-collum-two img{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+}
+.scissor-title{
+  max-width: 300px;
+  width: 100%;
+    
+
+}
+.scissor-title h3{
+  font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    margin-top: 30px;
+    
+
+}
+.scissor-img{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+ padding-bottom: 30%;
+}
+.touch-bar h3{
+  font-size: 19px;
+    line-height: 1.4211;
+    font-weight: 600;
+    letter-spacing: .012em;
+
+}
+
+
+/* touch-id-section */
+/* touch-id-section */
+/* touch-id-section */
+.touch-id-section{
+  margin-top: 2%;
+}
+.touch-id-container{
+      background: linear-gradient(rgba(0,0,0,0), #151b25, #151516),linear-gradient(90deg, #172538, #18263a 50%);
+  border-radius: 30px;
+  padding: 3%;
+}
+.touch-id-collum-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  
+}
+.touch-id-desc{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.touch-id-desc h5{
+  font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    padding-right: 10%;
+
+}
+.touch-two-info{
+  margin-bottom: 20%;
+}
+.touch-two-info img{
+  margin-bottom: 20px;
+}
+.touch-two-info h4{
+      font-size: 21px;
+    line-height: 1.381;
+    font-weight: 500;
+    letter-spacing: 0em;
+    padding-right: 20%;
+}
+
+
+.ultra-high-container{
+      background-color: #c76686;
+    background-image: radial-gradient(at 65% 0%, #714f92 0px, transparent 50%),radial-gradient(at 0% 65%, rgba(86,36,143,0.64) 0px, transparent 50%),radial-gradient(at 0% 37%, rgba(86,36,143,0.66) 0px, transparent 50%),radial-gradient(at 0% 2%, #57248f 0px, transparent 50%),radial-gradient(at 100% 5%, #714f92 0px, transparent 50%),radial-gradient(at 0% 100%, #56248f 0px, transparent 50%);
+}
+
+/* use ar sectin  */
+/* use ar sectin  */
+/* use ar sectin  */
+.use-ar-section{
+  background-color: #151516;
+  padding-top: 2%;
+}
+.use-ar-container{
+  background-color: #1d1d1f;
+  border-radius: 30px;
+  padding: 2% 0 0 5%;
+}
+.use-ar-collum-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+ 
+  
+}
+.use-ar-collum-one h1{
+
+  font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-top: 20px;
+  
+}
+.use-ar-collum-one p{
+      font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    margin-bottom: 40px;
+  
+}
+.use-btn{
+  border: none;
+  width: 30px ;
+  height: 30px;
+  border-radius: 50%;
+  color: transparent;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.use-btn-one{
+ background-color: #7d7e80;
+}
+
+
+
+
+
+/* notebook-section" */
+/* notebook-section" */
+/* notebook-section" */
+/* notebook-section" */
+/* notebook-section" */
+/* notebook-section" */
+.notebook-section{
+  background-color: #151516;
+  padding-top: 2%;
+}
+.notebook-contaier{
+  background-color: #1d1d1f;
+  border-radius: 30px;
+  padding-top: 5%;
+  
+}
+.notebook-wrapper{
+  max-width: 990px;
+  width: 100%;
+  margin: auto;
+}
+.notebook-title{
+  font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.009em;
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 30px;
+
+}
+.notebook-link{
+  font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+      text-align: center;
+      margin-bottom: 10%;
+
+}
+.notebook-link a{
+  text-decoration: none;
+
+
+
+}
+.macbook-imgs img{
+  max-height: 120px;
+  margin-bottom: 30px;
+  max-width: 170px;
+
+}
+.macbook-swich{
+  margin-bottom: 20px;
+}
+.macbook-title{
+  font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+
+}
+.macbook-air-collum-one {
+ padding: 5%;
+
+}
+.macbook-air-collum-one p{
+  font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+
+}
+.macbook-from{
+  margin-top: 30px;
+
+}
+.mb-price{
+  margin-bottom: 30px;
+}
+.mb-size{
+  margin-bottom: 30px;
+}
+.mb-chip{
+  margin-bottom: 30px;
+}
+.mb-btn{
+  border: none;
+  background-color: #2997ff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+/* high-powered-section */
+
+
+.high-powered-section{
+  margin-top: 2%;
+}
+
+.high-powered-container{
+  background-image: url("/src/img-macbook/router_macos_monterey__fz47xuao5tiu_large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 600px;
+  min-height: 600px;
+  height: 100%;
+  border-radius: 30px;
+}
+.high-powered-info{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.high-powered-info h1{
+  font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.high-powered-info p{
+  font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+
+}
+.high-powered-info p a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+/* . accessories-section */
+/* . accessories-section */
+
+.accessories-section{
+  margin-top: 2%;
+}
+.accessories-collum-one{
+  background-color: #1d1d1f;
+  background-image: none;
+}
+.accessories-collum-two{
+  background-color: #1d1d1f;
+  background-image: none;
+}
+.accessories-collum-one h5{
+  text-align: center;
+}
+.accessories-title{
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+  text-align: center;
+}
+.accessories-title button{
+cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+
+}
+.accessories-title h3{
+ font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.accessories-collum-two h5{
+  text-align: center;
+}
+.accessories-title a{
+  text-decoration: none;
+}
+
+.education-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.education-collum-one{
+  background-image: url("/src/img-macbook/router_education__du950ftxqoqe_large.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.education-collum-two{
+  background-image: url("/src/img-macbook/router_business__btsiu4bv1bte_large.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pay-monthly-section{
+  padding-top: 5%;
+  background-color: #1d1d1f;
+  
+
+}
+.free-next-container{
+  padding-bottom: 4%;
+}
+
+.macbook-bottom-img{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.macbook-bottom-img img{
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+
+}
+
+
+/* 
+===============================================================================================================================Responsive css for tab 
 ============================================================================================================================= */
 
 @media only screen and (max-width: 1023px) {
@@ -233,114 +1188,678 @@ h6 {
     background-color: #000;
   }
   .macbook-pro-hero-title {
-  left: 20%;
-
-}
+    left: 20%;
+  }
   .macbook-pro-info h5 {
-  font-size: 28px;
+    font-size: 28px;
+  }
+  .macbook-pro-info {
+    max-width: 700px;
+  }
+  .macbook-super h3 {
+    font-size: 32px;
+  }
+  .watch-the-event h4 {
+    font-size: 24px;
+  }
 
-}
-.macbook-pro-info {
-  max-width: 700px;
-
-}
-.macbook-super h3 {
-  font-size: 32px;
-
-}
-.watch-the-event h4 {
-  font-size: 24px;
-}
-
-/* level-up-section */
-/* level-up-section */
-/* level-up-section */
-.level-up-container {
-  max-width: 700px;
-}
-.level-up-title {
-  font-size: 64px;
-}
-.level-up-img img{
+  /* level-up-section */
+  /* level-up-section */
+  /* level-up-section */
+  .level-up-container {
+    max-width: 700px;
+  }
+  .level-up-title {
+    font-size: 64px;
+  }
+  .level-up-img img {
     max-width: 350px;
     width: 100%;
+  }
+
+  /* Compared to MacBook Pro 13  */
+  /* Compared to MacBook Pro 13  */
+  .performance-info h2 {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    margin-top: 30px;
+    padding-right: 10%;
+  }
+  .compared-title {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+  }
+  .video-editing {
+    font-size: 28px;
+  }
+  .video-editing a {
+    font-size: 28px;
+  }
+  .faster-video {
+    font-size: 21px;
+  }
+  .progress-div h2 {
+    font-size: 32px;
+  }
+  .progress-div {
+    margin-top: -20px;
+  }
+
+  /* thermal-section */
+  /* thermal-section */
+  /* thermal-section */
+  .thermal-desc {
+    padding-top: 15%;
+    padding-right: 5%;
+    font-size: 24px;
+    letter-spacing: 0.009em;
+    padding-bottom: 10%;
+  }
+
+  .unified-desc {
+    font-size: 24px;
+  }
+  .unified-info h4 {
+    font-size: 21px;
+    margin-bottom: 60%;
+  }
+
+  /* Performs well with others */
+  /* Performs well with others */
+
+  .performs-title {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-bottom: 30px;
+  }
+
+  /* All-day battery */
+  /* All-day battery */
+  /* All-day battery */
+
+  .all-day-collum-two {
+    margin-top: 3%;
+  }
+  /* MacBook Pro. Securely yours. */
+  /* MacBook Pro. Securely yours. */
+  /* MacBook Pro. Securely yours. */
+  /* MacBook Pro. Securely yours. */
+  .securely-section {
+    margin-top: 5%;
+  }
+  .security-collum-two {
+    padding: 5%;
+    margin-top: 3%;
+  }
+  .storage-info {
+    max-width: 490px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* retina-section */
+  /* retina-section */
+  /* retina-section */
+  /* retina-section */
+  .retina-section {
+    margin-top: 5%;
+  }
+  .retina-display {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    color: #a1a1a6;
+  }
+  .retina-see-the-better {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -0.009em;
+  }
+  .retina-info {
+    margin-top: 15%;
+    padding: 5%;
+    text-align: left;
+  }
+  .retina-info h5 {
+    font-size: 24px;
+  }
+  .retina-info h5 {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: 0.007em;
+    padding-right: 5%;
+    margin-bottom: 40px;
+  }
+  /* brightness-section */
+  /* brightness-section */
+  /* brightness-section */
+  .brightness-collum-md-collum {
+    display: block;
+    margin-bottom: 3%;
+  }
+  .brightness-collum-two {
+    padding: 5%;
+  }
+  .brightness-collum-lg-sm {
+    display: none;
+  }
+  /* touch-id-section */
+/* touch-id-section */
+/* touch-id-section */
+
+.touch-id-section{
+  margin-top: 3%;
+}
+.touch-id-desc h5{
+  font-size: 21px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    padding-right: 10%;
+
+}
+.touch-id-collum-two{
+  margin-top: 20%;
+
+}
+.notebook-title{
+  font-size: 48px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.009em;
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 30px;
+
 }
 
+
+.accessories-title h3{
+ font-size: 32px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    text-align: center;
+    width: 100%;
+}
+.high-powered-info h1{
+  font-size: 35px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.scissor-collum-one{
+  padding: 7%;
+  border-radius: 30px;
+  max-height: 600px;
+  height: 600px;
+  
+}
+
+
+
+.scissor-collum-two{
+  
+  border-radius: 30px;
+  max-height: 600px;
+  height: 600px;
+
+}
+
+.macbook-bottom-img img{
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  .thermal-img img {
+    display: block;
+  }
+
+  .performs-collum-one {
+    background-image: url("/src/img-macbook/macos__3zitq287xeae_large.png");
+    min-height: 700px;
+    height: 100%;
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 11;
+  }
+  .macso-img {
+    display: none;
+  }
 }
 
 /* ===============================================================================================================================Responsive css for mobile
 ============================================================================================================================= */
 
-@media only screen and (max-width: 714px) {
+@media only screen and (max-width: 767px) {
+  .macbook-pro-hero-title h2 {
+    font-size: 26px;
+  }
+  .macbook-pro-hero-title h1 {
+    color: #d2d2d7;
+    font-size: 40px;
+  }
+  .macbook-pro-hero-title {
+    position: absolute;
+    bottom: -60px;
+    left: 20%;
+    text-align: center;
+    animation: fadeIn 3s;
+  }
 
-    .macbook-pro-hero-title h2 {
-  font-size: 26px;
-}
-.macbook-pro-hero-title h1 {
-  color: #d2d2d7;
-  font-size: 40px;
-}
-.macbook-pro-hero-title {
-  position: absolute;
-  bottom: -60px;
-  left: 20%;
-  text-align: center;
-  animation: fadeIn 3s;
-}
+  .macbook-pro-info h5 {
+    font-size: 22px;
+  }
+  .macbook-pro-info {
+    max-width: 700px;
+  }
+  .macbook-super h3 {
+    font-size: 28px;
+  }
+  .watch-the-event h4 {
+    font-size: 21px;
+  }
+  .watch-the-event {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .macbook-pro-info h5 {
-  font-size: 22px;
-
-}
-.macbook-pro-info {
-  max-width: 700px;
-
-}
-.macbook-super h3 {
-  font-size: 28px;
-
-}
-.watch-the-event h4 {
-  font-size: 21px;
-}
-.watch-the-event {
-  display: flex;
-  flex-direction: column;
-}
-
-/* level-up-section */
-/* level-up-section */
-/* level-up-section */
-.level-up-container {
-  max-width: 700px;
-}
-.level-up-title {
-  font-size: 48px;
-}
-.level-up-img img{
+  /* level-up-section */
+  /* level-up-section */
+  /* level-up-section */
+  .level-up-container {
+    max-width: 700px;
+  }
+  .level-up-title {
+    font-size: 48px;
+  }
+  .level-up-img img {
     max-width: 350px;
     width: 100%;
-}
-.level-up-desc{
+  }
+  .level-up-desc {
     max-width: 300px;
     margin: auto;
-}
-.level-up-desc h5 {
-  font-size: 21px;
-}
+  }
+  .level-up-desc h5 {
+    font-size: 21px;
+  }
 
-.up-to-count p{
-  font-size: 14px;
-}
-.up-to-count h1{
+  .up-to-count p {
+    font-size: 14px;
+  }
+  .up-to-count h1 {
     font-size: 28px;
-}
-.up-to-count small{
-     font-size: 14px;
-}
-.level-up-count{
+  }
+  .up-to-count small {
+    font-size: 14px;
+  }
+  .level-up-count {
     display: flex;
     justify-content: center;
     margin-top: 10%;
+  }
+
+  /* Compared to MacBook Pro 13  */
+  /* Compared to MacBook Pro 13  */
+  /* Compared to MacBook Pro 13  */
+  /* Compared to MacBook Pro 13  */
+  /* Compared to MacBook Pro 13  */
+
+  .compared-container {
+    max-width: 410px;
+    width: 100%;
+    margin: auto;
+    background-color: #151516;
+    padding: 5%;
+    border-radius: 30px;
+  }
+  .performance-info h2 {
+    font-size: 24px;
+  }
+  .compared-title {
+    font-size: 24px;
+  }
+  .video-editing {
+    font-size: 21px;
+  }
+  .video-editing a {
+    font-size: 21px;
+  }
+  .faster-video {
+    font-size: 21px;
+  }
+  .progress-div h2 {
+    font-size: 28px;
+  }
+  .progress-div {
+    margin-top: -10px;
+  }
+  /* thermal-section */
+  /* thermal-section */
+  /* thermal-section */
+
+  .thermal-section {
+    margin-top: 2%;
+  }
+  .thermal-container {
+    max-width: 410px;
+    margin: auto;
+  }
+  .unified-info h4 {
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    margin-bottom: 30%;
+  }
+  .thermal-collum-two {
+    max-height: 700px;
+    margin-top: 5%;
+  }
+  /* Performs well with others */
+  /* Performs well with others */
+
+  .performs-collum-one {
+    background-image: none;
+    min-height: 30px;
+    height: 100%;
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 11;
+  }
+  .macso-img {
+    display: block;
+  }
+  .performs-info {
+    max-width: 500px;
+    margin: auto;
+    margin: 5%;
+  }
+  .performs-title {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-bottom: 30px;
+  }
+
+  /* All-day battery */
+  /* All-day battery */
+  .all-day-collum-one {
+    padding: 5%;
+    min-height: 600px;
+  }
+  .all-day-collum-two {
+    min-height: 600px;
+    height: 100%;
+  }
+  .portable-info h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    padding-right: 40%;
+  }
+  .media-img {
+    width: 100%;
+    max-height: 450px;
+    height: 100%;
+    padding-top: 10%;
+  }
+
+  /* MacBook Pro. Securely yours. */
+  /* MacBook Pro. Securely yours. */
+  /* MacBook Pro. Securely yours. */
+  /* MacBook Pro. Securely yours. */
+  .security-collum-two {
+    background: linear-gradient(to right bottom, #1f224b 0%, #2d5d85 100%);
+    padding: 10%;
+    border-radius: 30px;
+    min-height: 550px;
+    height: 100% !important;
+  }
+  .storage-info h1 {
+    font-size: 80px;
+  }
+
+  /* retina-section */
+  /* retina-section */
+  /* retina-section */
+  /* retina-section */
+  .retina-section {
+    margin-top: 5%;
+  }
+  .retina-info {
+    margin-top: 30%;
+    padding: 0% 0% 0% 15%;
+    text-align: left;
+  }
+  .retina-display {
+    font-size: 48px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -0.009em;
+    color: #a1a1a6;
+  }
+  .retina-see-the-better {
+    font-size: 48px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -0.009em;
+  }
+  .retina-info {
+    margin-top: 15%;
+    padding: 5%;
+    text-align: left;
+  }
+  .retina-info h5 {
+    font-size: 21px;
+  }
+
+  /* brightness-section */
+  /* brightness-section */
+  /* brightness-section */
+  .brightness-collum-md-collum {
+    display: none;
+    margin-bottom: 3%;
+  }
+  .brightness-collum-two {
+    padding: 5%;
+    margin-top: 5%;
+  }
+  .brightness-collum-three {
+    margin-top: 5% !important;
+  }
+  .brightness-collum-lg-sm {
+    display: block;
+  }
+  .brightness-section img{
+  width: 50%;
+
 }
+  .brightness-collum-one,
+  .brightness-collum-two,
+  .brightness-collum-three {
+    background-color: #151517;
+    padding: 10%;
+    border-radius: 30px;
+    max-height: 500px;
+    min-height: 500px;
+    height: 100%;
+    min-height: 500px;
+  }
+  /* FaceTime HD camera */
+/* FaceTime HD camera */
+/* FaceTime HD camera */
+
+.face-time-collum-one {
+  background-color: #151517;
+  padding: 7%;
+  border-radius: 30px;
+  max-height: 600px;
+  height: 100%;
+}
+.face-time-collum-two {
+  background-color: #151517;
+  padding: 10%;
+  margin-top: 5%;
+  border-radius: 30px;
+  max-height: 600px;
+  height: 100%;
+}
+.signal-info h3 {
+  font-size: 24px;
+  line-height: 1.33341;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+  margin-top: 10%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+.three-mic-info h3 {
+      font-size: 24px;
+    line-height: 1.33341;
+    font-weight: 600;
+    letter-spacing: .009em;
+  margin-top: 15%;
+  padding-right: 10%;
+  margin-bottom: 30px;
+}
+
+/* .Scissor mechanism  */
+/* .Scissor mechanism  */
+/* .Scissor mechanism  */
+
+.scissor-collum-one{
+  padding: 7%;
+  border-radius: 30px;
+  max-height: 600px;
+  height: 700px;
+      background: linear-gradient(150deg, #124d86 0%, #14204e 100%);
+}
+
+.scissor-collum-two{
+  margin-top: 5%;
+  border-radius: 30px;
+  max-height: 700px;
+  height: 600px;
+  min-height: 600px;
+  padding: 7%;
+  background-color: #151516;
+  position: relative;
+
+}
+.use-collum-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.use-ar-collum-one h1{
+
+  font-size: 28px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-top: 20px;
+  
+}
+
+.use-ar-collum-two{
+  margin-top: 20%;
+}
+
+.notebook-title{
+  font-size: 34px;
+    line-height: 1.0625;
+    font-weight: 600;
+    letter-spacing: -.009em;
+    text-align: center;
+    padding: 0 5%;
+    margin-bottom: 30px;
+
+}
+.accessories-collum-one{
+  background-color: #1d1d1f;
+  background-image: none;
+}
+.accessories-collum-two{
+  background-color: #1d1d1f;
+  background-image: none;
+}
+.education-collum-one{
+  background-image: url("/src/img-macbook/router_education__du950ftxqoqe_large.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.education-collum-two{
+  background-image: url("/src/img-macbook/router_business__btsiu4bv1bte_large.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pay-monthly-section{
+  padding-top: 5%;
+  background-color: #1d1d1f;
+  margin-top: 5%;
+  
+
+}
+.free-next-container{
+  padding-bottom: 4%;
+}
+.accessories-title h3{
+ font-size: 32px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    text-align: center;
+    width: 100%;
+}
+.high-powered-info h1{
+  font-size: 35px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
 }
